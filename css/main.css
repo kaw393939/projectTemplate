@@ -76,9 +76,6 @@ body {
     line-height: 23px;
 }
 
-
-
-
 #sidebar {
     width: 367px;
     float: left;
@@ -88,7 +85,31 @@ body {
     clear: both;
 }
 
+#header {
+    height: 200px;
+    line-height: 200px;
+}
 
+#header li {
+    display: inline;
+}
+
+#header ul {
+    margin-right: 31px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+
+}
+
+#banner {
+    height: 363px;
+    background-image: url("../images/happy-people.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 363px;
+    filter: alpha(opacity=50);
+    opacity: 0.5;}
 
 
 
