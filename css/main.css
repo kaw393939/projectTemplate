@@ -3,7 +3,7 @@ body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
 }
-
+/*
 #box1 {
     background-color: green;
     float: left;
@@ -26,7 +26,7 @@ body {
     width: 100px;
     height: 100px;
 }
-
+*/
 .fullborder {
     border: black solid thin;
 }
@@ -108,12 +108,57 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 363px;
-    filter: alpha(opacity=50);
-    opacity: 0.5;}
+
+}
+
+#hero  {
+    height: 365px;
+    width: 320px;
+    position: relative;
+    display: block;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #563d7c;
+    padding: 0px;
+    filter: alpha(opacity=40);
+    opacity: 0.40;
+}
+
+#hero h1 {
+    margin: 0px;
+}
+
+#heroText   {
+
+position: relative;
+z-index: 2;
+background: rgba(255,255,255,0.8);
+
+}
 
 
+.box {
+    width: 266px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top: 18px;
+    height: 215px;
+    float: left;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    margin-top: 18px;
+    margin-right: 18px;
+}
 
-
-
+.boxTitle {
+    border-bottom: 1px solid black;
+}
+.boxContent {
+    padding-top: 9px;
+}
 
 
